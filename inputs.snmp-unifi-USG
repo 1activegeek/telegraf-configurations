@@ -1,6 +1,6 @@
 [[inputs.snmp]]
   # List of agents to poll
-  agents = [ "hostname" ]
+  agents = [ "hostname-or-IP" ]
   # Polling interval
   interval = "60s"
   # Timeout for each SNMP query.
